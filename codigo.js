@@ -63,7 +63,7 @@ function listarProductos(productos) {
 
 function obtenerProductos() {
 	 fetch('https://retoolapi.dev/7s2OxF/productos')
-		.then(res => res.json())
+		.then(res => res.json()) 
 		.then(data => {
 			productos = data;
 			productos.forEach(
